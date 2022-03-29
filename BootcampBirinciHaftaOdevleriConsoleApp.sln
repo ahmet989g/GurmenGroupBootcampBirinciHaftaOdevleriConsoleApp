@@ -5,15 +5,19 @@ VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID_Prensipleri", "SOLID_Prensipleri", "{3C36C5D4-BA97-4A60-8AEB-8389EDF31670}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Single_Responsibility_Principle", "Single_Responsibility_Principle\Single_Responsibility_Principle.csproj", "{2973F167-D403-41AE-B01C-0F78A27CAC28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Single_Responsibility_Principle", "Single_Responsibility_Principle\Single_Responsibility_Principle.csproj", "{2973F167-D403-41AE-B01C-0F78A27CAC28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open_Closed_Prenciple", "Open_Closed_Prenciple\Open_Closed_Prenciple.csproj", "{6D552AB7-1BF6-4D60-B176-0BA27ACE04B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Open_Closed_Prenciple", "Open_Closed_Prenciple\Open_Closed_Prenciple.csproj", "{6D552AB7-1BF6-4D60-B176-0BA27ACE04B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liskov_Substitution_Principle", "Liskov_Substitution_Principle\Liskov_Substitution_Principle.csproj", "{F0B30584-3D78-4D7C-9B68-A4C575A9E760}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Liskov_Substitution_Principle", "Liskov_Substitution_Principle\Liskov_Substitution_Principle.csproj", "{F0B30584-3D78-4D7C-9B68-A4C575A9E760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface_Segregation_Principle", "Interface_Segregation_Principle\Interface_Segregation_Principle.csproj", "{C7C7F02E-9B5A-4A3A-BF60-A5D612B00593}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interface_Segregation_Principle", "Interface_Segregation_Principle\Interface_Segregation_Principle.csproj", "{C7C7F02E-9B5A-4A3A-BF60-A5D612B00593}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency_Inversion_Principle", "Dependency_Inversion_Principle\Dependency_Inversion_Principle.csproj", "{6D3231F5-AC05-4578-A7A2-12756090F82D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dependency_Inversion_Principle", "Dependency_Inversion_Principle\Dependency_Inversion_Principle.csproj", "{6D3231F5-AC05-4578-A7A2-12756090F82D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge_Design_Pattern", "Bridge_Design_Pattern", "{6DF5E0CF-3975-47F4-9118-5FD101A5A3B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeDesignPattern", "BridgeDesignPattern\BridgeDesignPattern.csproj", "{B505A862-72EA-4D9D-949F-9AFD1E60C54E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{6D3231F5-AC05-4578-A7A2-12756090F82D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D3231F5-AC05-4578-A7A2-12756090F82D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D3231F5-AC05-4578-A7A2-12756090F82D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B505A862-72EA-4D9D-949F-9AFD1E60C54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B505A862-72EA-4D9D-949F-9AFD1E60C54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B505A862-72EA-4D9D-949F-9AFD1E60C54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B505A862-72EA-4D9D-949F-9AFD1E60C54E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +59,7 @@ Global
 		{F0B30584-3D78-4D7C-9B68-A4C575A9E760} = {3C36C5D4-BA97-4A60-8AEB-8389EDF31670}
 		{C7C7F02E-9B5A-4A3A-BF60-A5D612B00593} = {3C36C5D4-BA97-4A60-8AEB-8389EDF31670}
 		{6D3231F5-AC05-4578-A7A2-12756090F82D} = {3C36C5D4-BA97-4A60-8AEB-8389EDF31670}
+		{B505A862-72EA-4D9D-949F-9AFD1E60C54E} = {6DF5E0CF-3975-47F4-9118-5FD101A5A3B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9925DFB-5FD8-41E9-940C-72DFBFB529C3}
