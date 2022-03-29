@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BridgeDesignPattern.Interfaces
+namespace BridgeDesignPattern.hasA.Interfaces
 {
     internal interface IMesajGonder
     {
