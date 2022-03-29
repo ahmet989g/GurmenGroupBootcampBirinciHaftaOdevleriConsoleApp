@@ -25,11 +25,6 @@ namespace BridgeDesignPattern.isA
         {
             Console.WriteLine($"{mesajGonderilecekKullanici} kullanıcısına WhatsApp mesajınız gönderildi. Mesajınız: {mesaj}");
         }
-
-        public void FacebookIleGonder(string mesajGonderilecekKullanici, string mesaj)
-        {
-            Console.WriteLine($"{mesajGonderilecekKullanici} kullanıcısına Facebook mesajınız gönderildi. Mesajınız: {mesaj}");
-        }
     }
 
     internal class SadeceEpostaIleGonder : IMesajGonderIsA
