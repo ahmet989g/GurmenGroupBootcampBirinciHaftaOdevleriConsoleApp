@@ -11,4 +11,3 @@ new Gonder(new SlackIleGonder()).MesajGonder("Patron", "Test Slack Mesajım");
 new GonderIsA().EPostaIleGonder("ahmet@gmail.com", "Test Postam");
 new GonderIsA().WhatsAppIleGonder("Annem", "Test Postam");
 new GonderIsA().SlackIleGonder("Patron", "Test Slack Mesajım");
-new GonderIsA().FacebookIleGonder("Patron", "Test Facebook Mesajım");
