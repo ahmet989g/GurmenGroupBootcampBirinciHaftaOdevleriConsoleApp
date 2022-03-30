@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dependency_Inversion_Princi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge_Design_Pattern", "Bridge_Design_Pattern", "{6DF5E0CF-3975-47F4-9118-5FD101A5A3B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeDesignPattern", "BridgeDesignPattern\BridgeDesignPattern.csproj", "{B505A862-72EA-4D9D-949F-9AFD1E60C54E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeDesignPattern", "BridgeDesignPattern\BridgeDesignPattern.csproj", "{B505A862-72EA-4D9D-949F-9AFD1E60C54E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeDesignPattern", "FacadeDesignPattern\FacadeDesignPattern.csproj", "{9D40E358-3E6D-490D-A037-AC5368967691}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{B505A862-72EA-4D9D-949F-9AFD1E60C54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B505A862-72EA-4D9D-949F-9AFD1E60C54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B505A862-72EA-4D9D-949F-9AFD1E60C54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D40E358-3E6D-490D-A037-AC5368967691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D40E358-3E6D-490D-A037-AC5368967691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D40E358-3E6D-490D-A037-AC5368967691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D40E358-3E6D-490D-A037-AC5368967691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{C7C7F02E-9B5A-4A3A-BF60-A5D612B00593} = {3C36C5D4-BA97-4A60-8AEB-8389EDF31670}
 		{6D3231F5-AC05-4578-A7A2-12756090F82D} = {3C36C5D4-BA97-4A60-8AEB-8389EDF31670}
 		{B505A862-72EA-4D9D-949F-9AFD1E60C54E} = {3C36C5D4-BA97-4A60-8AEB-8389EDF31670}
+		{9D40E358-3E6D-490D-A037-AC5368967691} = {3C36C5D4-BA97-4A60-8AEB-8389EDF31670}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9925DFB-5FD8-41E9-940C-72DFBFB529C3}
