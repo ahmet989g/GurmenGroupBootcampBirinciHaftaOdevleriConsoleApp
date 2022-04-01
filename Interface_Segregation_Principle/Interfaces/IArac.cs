@@ -8,7 +8,7 @@ namespace Interface_Segregation_Principle.Interfaces
 {
     internal interface IArac
     {
-        void İleri();
+        void Ileri();
         void Geri();
         void Saga();
         void Sola();

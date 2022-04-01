@@ -1,7 +1,7 @@
 ﻿using Interface_Segregation_Principle;
 
 Motosiklet motor = new Motosiklet();
-motor.İleri();
+motor.Ileri();
 motor.Saga();
 motor.Geri();
 motor.Sola();

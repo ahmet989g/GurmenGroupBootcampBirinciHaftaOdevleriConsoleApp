@@ -9,7 +9,7 @@ namespace Interface_Segregation_Principle
 {
     internal class Motosiklet : IArac, IYakit
     {
-        public void İleri()
+        public void Ileri()
         {
             Console.WriteLine("İleri");
         }
